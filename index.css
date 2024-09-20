@@ -1,0 +1,87 @@
+body{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 100vh;
+}
+.container1{
+    background-color: rgb(255,255,255);
+    display: flex;
+    height: 420px;
+    width:730px;
+   
+   
+  
+
+}
+.rrr{
+    width:350px;
+    height: 420px;
+    background: linear-gradient(hsl(252,100%,67%),hsl(241,81%,54%));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width:50%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5% ;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding:7px;
+   
+}
+.button1{
+    display: flex;
+    flex-direction: row;
+    color:red;
+    text-align: center;
+
+}.button2{
+    display: flex;
+    flex-direction: row;
+    color:hsl(39,100%,56%);
+    text-align: center;
+}
+.button3{
+    display: flex;
+    flex-direction: row;
+    color:hsl(166,100%,37%);
+    text-align: center;
+}
+.button4{
+    display: flex;
+    flex-direction: row;
+    color:hsl(234,85%,45%);
+    text-align: center;
+}
+.circle{
+    background: linear-gradient(hsla(256, 72%,46%,1),hsla(241,72%,46%,0));
+    border-radius:200px;
+    width:150px;
+    height:150px;
+    text-align:center;
+}
+.side2{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 2px 2px rgba(0,0,255,0.463);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+button{
+    background-color: hsl(224,30%,27%);
+    border-radius:10%;
+    width:300px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.ttt{
+    display: flex;
+    justify-content: space-around;
+    gap:10rem;
+}
